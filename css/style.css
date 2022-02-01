@@ -4,15 +4,21 @@
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #bod {
     background-color: rgba(2, 26, 2, 0.788);
     text-align: center;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .logos {
     padding-top: 40px;
     height: 120px;
+}
+.items {
+    flex: auto;
 }
 
 img {
